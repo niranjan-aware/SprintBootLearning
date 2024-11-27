@@ -1,6 +1,6 @@
 package org.springboot.demospringboot.dao;
 
-import org.springboot.demospringboot.entity.Student;
+import org.springboot.demospringboot.model.Student;
 
 import java.util.List;
 

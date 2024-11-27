@@ -1,4 +1,4 @@
-package org.springboot.demospringboot.entity;
+package org.springboot.demospringboot.model;
 
 import jakarta.persistence.*;
 import lombok.*;

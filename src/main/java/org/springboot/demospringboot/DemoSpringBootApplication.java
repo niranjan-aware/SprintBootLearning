@@ -1,7 +1,7 @@
 package org.springboot.demospringboot;
 
 import org.springboot.demospringboot.dao.StudentDAO;
-import org.springboot.demospringboot.entity.Student;
+import org.springboot.demospringboot.model.Student;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
