@@ -6,8 +6,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
 
+import javax.sql.DataSource;
 import java.util.List;
 
 @SpringBootApplication
@@ -36,9 +40,9 @@ public class DemoSpringBootApplication {
         };
     }
 
-    private void deleteStudent(StudentDAO studentDAO) {
-        studentDAO.delete(2);
-    }
+//    private void deleteStudent(StudentDAO studentDAO) {
+//        Student student =
+//    }
 
     private void updateStudent(StudentDAO studentDAO) {
         Student student = studentDAO.findById(2);
